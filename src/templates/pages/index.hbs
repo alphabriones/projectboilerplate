@@ -4,11 +4,21 @@ layout: layout-base.hbs
 ---
 
 
-{{#parseJSON '{ "feature": true }' }}
-    {{> carousel }}
-{{/parseJSON}}
+{{!#parseJSON '{ "feature": true }' }}
+    {{!> carousel }}
+{{!/parseJSON}}
 
 
-{{#parseJSON '{ "feature": false }' }}
-    {{> carousel }}
-{{/parseJSON}}
+{{!#parseJSON '{ "feature": false }' }}
+    {{!> carousel }}
+{{!/parseJSON}}
+
+
+{{!#parseJSON '{ "feature": "Name", "placeholder": "Insert Name" }' }}
+    {{!> component_input}}
+{{!/parseJSON}}
+
+
+
+
+{{> module_personalDetails}}
