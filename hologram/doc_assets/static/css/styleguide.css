@@ -1,0 +1,150 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+}
+
+
+.sg-h1, .sg-h2, .sg-section > h1, .sg-section > h2, .sg-section > p {
+    font-family: arial, helvetica, sans-serif;
+}
+
+
+
+.sg-h1 {
+    margin: 1em 0;
+}
+
+
+/*
+    Todo Implement correct visually hidden approach
+*/
+.sg-visuallyhidden {
+    display: none;
+}
+
+
+.sg-header {
+    position: relative;
+    padding: 0 1em;
+    margin: 1em 0;
+}
+
+
+
+.sg-content {
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+
+.sg-section {
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+.sg-footer {
+    text-align: center;
+    position: relative;
+    padding: 2em;
+}
+
+
+/*
+ Display list inline not stacked
+*/
+
+.sg-list-inline {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sg-list-inline > li {
+    position: relative;
+    display: inline-block;
+}
+
+
+/*
+ Navigation
+*/
+
+.sg-navigation {
+    position: relative;
+}
+
+.sg-navigation-global {
+    border-top: 1px solid #ccc;
+}
+
+.sg-navigation-secondary {
+    border-top: none;
+    border-left: 0.6em solid #CCC;
+}
+
+
+.sg-navigation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+
+
+
+
+.sg-navigation-list-item {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+.sg-navigation-button {
+    display: block;
+    font-family: arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: #4E4E4E;
+    padding: 0.8em 1.3em;
+    font-size: 0.85em;
+}
+
+
+
+/*
+    Pre-defined by Hologram
+*/
+.codeExample {
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0;
+}
+
+.exampleOutput, .codeBlock {
+    position: relative;
+    padding: 1em;
+}
+
+.exampleOutput {
+    position: relative;
+    border-top: 1px solid #E7E7E7;
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+}
+
+.codeBlock {
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    overflow-x: auto;
+
+}
+

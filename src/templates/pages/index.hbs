@@ -1,0 +1,14 @@
+---
+title: Sample
+layout: layout-base.hbs
+---
+
+
+{{#parseJSON '{ "feature": true }' }}
+    {{> carousel }}
+{{/parseJSON}}
+
+
+{{#parseJSON '{ "feature": false }' }}
+    {{> carousel }}
+{{/parseJSON}}

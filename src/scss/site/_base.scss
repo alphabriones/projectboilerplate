@@ -1,0 +1,172 @@
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+body{
+  background: #ccc;
+  line-height: 1.5em;
+  font-family: 'FS ME Light Web', helvetica, sans-serif;
+  color:$font-base-color;
+  letter-spacing: 0.055em;
+  font-size: pxtoem($font-size-standard);
+
+  /*
+  @include breakpoint(md) {
+    font-size: pxtoem($font-size-base-increase);
+  }
+  */
+}
+
+
+
+
+pre, code {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  background: #FBFBFB;
+  padding: 0.3em;
+}
+
+
+
+/*doc
+---
+title: Headings
+name: headings
+category: Base
+---
+
+Base heading styles
+
+```html_example
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+```
+
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color:#231F20;
+  font-family: 'PlakBlackCondensed', helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 1em;
+}
+
+
+h1 {
+  font-size: pxtoem(80px);
+}
+
+h2 {
+  font-size: pxtoem(46px);
+}
+
+h3 {
+  font-size: pxtoem(27px);
+}
+
+h4 {
+  font-size: pxtoem(18px);
+}
+
+h5 {
+  font-size: pxtoem(14px);
+}
+
+h6 {
+  font-size: pxtoem(13px);
+}
+
+
+a {
+  color:#00AEEF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+p {
+
+}
+
+
+/*doc
+---
+title: Buttons
+name: buttons
+category: Base
+---
+
+Standard button
+
+```html_example
+
+<button class="btn">Click here</button>
+
+```
+
+*/
+
+button, a  {
+
+}
+
+
+/*doc
+---
+title: Button Feature
+name: buttonfeature
+category: Base
+parent: buttons
+---
+
+Feature Button
+
+```html_example
+<button class="btn btn-feature">Click here</button>
+```
+
+*/
+
+
+
+ul, ol, li {
+  margin: 1em 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style-position: inside;
+}
+
+img {
+  position: relative;
+  margin:1em 0;
+}
+
+
